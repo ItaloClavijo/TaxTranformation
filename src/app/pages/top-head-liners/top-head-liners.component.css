@@ -1,0 +1,27 @@
+.article {
+    width: 350px; /* Ancho deseado para cada tarjeta */
+    margin-bottom: 20px;
+    background-color: #00B8F5 ;
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  .mat-card {
+    background-color: #00338d; /* Color de fondo de la tarjeta */
+    color: white; /* Color del texto dentro de la tarjeta */
+    width: calc(33.33% - 20px); /* Ancho deseado para cada tarjeta */
+    margin-bottom: 20px; /* Espacio entre las tarjetas */
+  }
+
+  .mat-button{
+    background-color: #0c233c;
+  }
